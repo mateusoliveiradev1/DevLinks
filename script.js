@@ -10,7 +10,7 @@ const img = document.querySelector("#profile img")
     // Se tvier light mode, adicionar a imagem light    
       img.setAttribute("src", "./assets/avatar-light.png")
     } else {
-    //Se tiver light mode, mander a imagem original
+    //Se nao tiver light mode, mander a imagem original
     img.setAttribute("src", "./assets/avatar-1.png")
 }
 
